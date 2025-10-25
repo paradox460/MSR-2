@@ -382,7 +382,7 @@ sensor:
 
             // Check if the radar_has_moving_target sensor is off
             if (!id(radar_has_moving_target).state) {
-              return NAN;
+              return {};
             }
 
             // Check if the reduce_db_reporting switch is on
@@ -410,7 +410,7 @@ sensor:
 
             // Check if the radar_has_still_target sensor is off
             if (!id(radar_has_still_target).state) {
-              return NAN;
+              return {};
             }
 
             // Check if the reduce_db_reporting switch is on
