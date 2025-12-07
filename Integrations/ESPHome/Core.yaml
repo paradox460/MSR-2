@@ -321,8 +321,8 @@ binary_sensor:
             }
 
   - platform: template
-    name: "Occupancy"
-    id: "general_occupancy"
+    name: "Radar Zone Occupancy"
+    id: "radar_zone_occupancy"
     device_class: occupancy
     icon: mdi:motion-sensor
     lambda: |-
